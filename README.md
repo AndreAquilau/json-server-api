@@ -1,4 +1,4 @@
-## CREATE API WITH JSON-SERVER AND TYPESCRIPT
+## CREATE API WITH JSON-SERVER
 
 ```bash
 yarn add json-server && yarn add -D @types/json-server
@@ -54,7 +54,7 @@ json-server --watch db.json --port 3001
   http://localhost:3001
 ```
 
-#### Request Get Wih Query
+#### Request Get With Query
 ```json
 {
   "uri": "http://localhost:3001/products?id=1"
